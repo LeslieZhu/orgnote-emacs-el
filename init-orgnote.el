@@ -6,4 +6,10 @@
  '(org-export-language-setup 
    (quote 
     (("en" "Author" "Date" "Table of Contents" "Footnotes") ("zh-CN" "作者" "日期" "目录" "脚注")))))
+
+
+;;; load htmlize.el
+(add-to-list 'load-path (file-name-directory "./scripts/"))
+(require 'htmlize)
+
  
